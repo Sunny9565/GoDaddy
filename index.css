@@ -1,0 +1,1049 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  height: 65px;
+  width: 100%;
+}
+
+.leftnav {
+  background-color: black;
+  width: 55%;
+  height: 65px;
+  float: left;
+  text-align: center;
+
+
+}
+
+.rightnav {
+  background-color: black;
+  width: 45%;
+  height: 65px;
+  text-align: center;
+  float: right;
+
+}
+
+/* .fa-angle-down{
+  color: white;
+} */
+
+.leftnav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  /* background-color: #333; */
+}
+
+.leftnav li {
+  float: left;
+}
+
+.leftnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+img {
+  height: 30px;
+  margin-left: 28px;
+  float: left;
+  /* mix-blend-mode: darken; */
+  margin-top: 15px;
+}
+
+.leftnav li a:hover {
+  background-color: RGB(181 182 184);
+  border-radius: 8px;
+}
+
+.rightnav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  margin-left: 275px;
+  /* background-color: #333; */
+}
+
+.rightnav li {
+  float: left;
+
+}
+
+.rightnav li a {
+
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: normal;
+  margin-top: 10px;
+}
+
+
+.rightnav li a:hover {
+  background-color: RGB(181 182 184);
+  border-radius: 8px;
+}
+
+.serchcontainer {
+  height: 95px;
+  width: 100%;
+  background-color: white;
+
+
+}
+
+.leftside {
+  width: 56%;
+  background-color: white;
+  float: left;
+}
+
+.rightside {
+  width: 44%;
+  /* background-color:rgb(252, 239, 239); */
+  float: right;
+  margin-top: 15px;
+  height: 80px;
+}
+
+.part1 {
+  margin-top: 10px;
+
+  float: left;
+  width: 20%;
+
+  color: white;
+}
+
+.part1 a {
+  text-decoration: none;
+}
+
+span {
+  color: black;
+  margin-left: 5px;
+}
+
+
+.fa-indian-rupee-sign {
+  color: black;
+  margin-left: 5px;
+  font-weight: normal;
+}
+
+.part2 {
+  float: left;
+  margin-top: 10px;
+  width: 22%;
+}
+
+.part2 a {
+  text-decoration: none;
+}
+
+span {
+  color: black;
+  margin-left: 5px;
+}
+
+.fa-indian-rupee-sign {
+  color: black;
+  margin-left: 5px;
+  font-weight: normal;
+
+
+}
+
+
+.part3 {
+  margin-top: 10px;
+  float: left;
+  width: 22%;
+
+
+}
+
+.part3 img {
+  height: 18px;
+  margin-top: 3px;
+  /* margin-right: 20px; */
+
+}
+
+.part3 a {
+  text-decoration: none;
+}
+
+.part4 {
+  float: left;
+  width: 34%;
+  margin-top: 10px;
+
+}
+
+.part4 img {
+  height: 18px;
+  margin-top: 3px;
+  /* margin-right: 20px; */
+
+}
+
+.part4 a {
+  text-decoration: none;
+
+}
+
+.leftside input[type=text] {
+  margin-top: 10px;
+  margin-left: 20px;
+  padding: 26px;
+  border: none;
+  width: 70%;
+  height: 60px;
+  font-size: 17px;
+  background: #ebebeb;
+}
+
+.btn {
+  font-size: 17px;
+  height: 60px;
+  background: #00838c;
+  width: 20%;
+}
+
+.btn:hover {
+  background-color: #117f86
+}
+
+.btn:active {
+
+
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.svg {
+  width: 25px;
+}
+
+.blank {
+  color: white;
+
+}
+
+.maincontainer {
+  width: 100%;
+  height: 1350px;
+}
+
+.mainleft {
+  width: 908px;
+  margin-left: 18px;
+  margin-top: 16px;
+
+  height: 430px;
+  /* width: 60%; */
+  float: left;
+  position: relative;
+  background-image: url(./image/godaddy\ page.webp);
+
+}
+
+.theory h3 {
+  margin-top: 48px;
+  margin-left: 40px;
+}
+
+.theory h1 {
+  margin-left: 40px;
+  margin-top: 28px;
+  font-size: 45px;
+
+}
+
+.theory h2 {
+  margin-top: 41px;
+  font-size: 18px;
+  margin-left: 40px;
+  font-weight: 100;
+
+}
+
+.findbtn {
+  font-size: 17px;
+  height: 47px;
+  background: #121313;
+  width: 147px;
+  color: white;
+  border-radius: 5px;
+  margin-left: 43px;
+  margin-top: 29px;
+
+}
+
+.theory h5 {
+  margin-top: 24px;
+  margin-left: 40px;
+  font-weight: normal;
+
+}
+
+
+.mainright {
+
+  
+  margin-right: 92px;
+  width: 425px;
+  height: 430px;
+  margin-top: -430px;
+  float: right;
+  background-color: #fde9db;
+}
+
+.mainright h3 {
+  margin-top: 44px;
+  margin-left: 43px;
+}
+
+.mainright h1 {
+  margin-left: 43px;
+  margin-top: 14px;
+
+}
+
+.stbtn {
+  font-size: 17px;
+  height: 47px;
+  background: #121313;
+  width: 137px;
+  color: white;
+  border-radius: 5px;
+  margin-left: 43px;
+  margin-top: 14px;
+
+}
+
+.mainright a {
+  margin-left: 16px;
+  font-size: 18px;
+  color: black;
+  text-decoration: none;
+}
+
+.mainright h4 {
+  margin-left: 40px;
+
+  margin-top: 25px;
+}
+
+
+/* .search{
+    width: 50%;
+    margin-top: 5px;
+  } */
+/* .search input[type=text] {
+   margin-left:50px;
+    padding: 26px;
+    border:none;
+    width: 70%;
+    height: 80px;
+    font-size: 17px;
+  } */
+/* ::placeholder{
+    font-size: 20px;
+  } */
+.abc {
+  margin-top: 490px;
+  width: 100%;
+}
+
+.abc h1 {
+  text-align: center;
+  font-size: 45px;
+  height: 100px;
+}
+
+.abc h1 span {
+  margin-bottom: 3px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.threecont {
+
+  width: 100%;
+  margin-top: 35px;
+}
+
+.threecontleft {
+  float: left;
+  /* background-color: aquamarine; */
+  width: 50%;
+}
+
+.threecontleft img {
+  margin-left: 100px;
+  width: 594px;
+  height: 408px;
+}
+
+.threecontright {
+  float: right;
+  width: 50%;
+}
+
+.threecontright img {
+  margin-right: 100px;
+  width: 594px;
+
+  height: 408px;
+}
+
+.fourcont {
+
+  width: 100%;
+  margin-top: 12px;
+}
+
+.fourcontleft {
+  float: left;
+  /* width:50%; */
+  width: 720px;
+
+  margin-top: 12px;
+
+}
+
+
+
+
+.fourcontleft .expbtn {
+  font-size: 17px;
+  height: 47px;
+  width: 190px;
+  border-radius: 5px;
+  margin-left: 100px;
+  margin-top: 44px;
+  border: 2px solid black;
+  transition: all 0.5s;
+  cursor: pointer;
+
+
+}
+
+.expbtn span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.expbtn span:after {
+  font-size: 19px;
+  content: '\2192';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.expbtn:hover span {
+  padding-right: 25px;
+}
+
+.expbtn:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.fourcontleft h1 {
+  margin-left: 100px;
+}
+
+.fourcontleft h3 {
+  margin-top: 35px;
+  font-size: 17px;
+  margin-left: 100px;
+  font-weight: normal;
+
+}
+
+.fourcontleft h4 {
+  margin-left: 100px;
+  font-weight: normal;
+  margin-top: 35px;
+
+
+}
+
+.fourcontleft h4 span {
+  font-size: 33px;
+}
+
+.fourcontright {
+  margin-top: 12px;
+  /* margin-right: 100px; */
+  float: right;
+  width: 710px;
+  /* width: 50%; */
+
+}
+
+.fourcontright h1 {
+  margin-right: 100px;
+}
+
+.fourcontright h3 {
+  margin-top: 35px;
+  font-size: 17px;
+  margin-right: 100px;
+  font-weight: normal;
+
+}
+
+.fourcontright h4 {
+  margin-right: 100px;
+  font-weight: normal;
+  margin-top: 35px;
+
+
+}
+
+.fourcontright h4 span {
+  font-size: 33px;
+}
+
+.fourcontright .expbtn {
+  font-size: 17px;
+  height: 47px;
+  width: 190px;
+  border-radius: 5px;
+  margin-right: 100px;
+  margin-top: 44px;
+  border: 2px solid black;
+
+}
+
+.space {
+  color: white;
+
+}
+
+.fifthcont {
+  margin-top: 20px;
+  width: 100%;
+  /* background-color: #c6d5e9; */
+}
+
+.fifthcontleft {
+  float: left;
+  width: 25%;
+  background-color: rgb(209, 220, 239);
+
+  /* background-color: rgb(198, 213, 233); */
+  height: 490px;
+
+}
+
+.fifthcontleft h3 {
+  margin-top: 75px;
+  margin-left: 62px;
+  font-weight: bold;
+}
+
+.fifthcontleft h3 span {
+  font-weight: normal;
+}
+
+.fifthcontmid {
+  width: 25%;
+  background-color: rgb(209, 220, 239);
+  float: left;
+  height: 490px;
+
+
+
+}
+
+.fifthcontmid img {
+  margin-top: 63px;
+  height: 427px;
+  width: 92%;
+  /* margin-right: 30px; */
+}
+
+.fifthcontright {
+  background-color: rgb(209, 220, 239);
+  /* background-color: #c6d5e9; */
+  height: 490px;
+
+  float: right;
+  width: 50%;
+}
+
+.fifthcontright svg {
+  margin-top: 48px;
+  margin-left: 60px;
+}
+
+.fifthcontright h1 {
+  margin-left: 60px;
+  margin-top: 60px;
+  font-size: 55px;
+  font-weight: bold;
+
+
+}
+
+.fifthcontright h3 {
+  margin-left: 60px;
+  margin-top: 38px;
+  margin-right: 206px;
+  font-weight: normal;
+  font-size: 16px;
+
+}
+
+.fifthcontright .fifthbtn {
+  font-size: 17px;
+  height: 47px;
+  background: #121313;
+  width: 147px;
+  color: white;
+  border-radius: 5px;
+  margin-left: 60px;
+  margin-top: 33px;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.fifthbtn span {
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.fifthbtn span:after {
+  content: '\2192';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.fifthbtn:hover span {
+  padding-right: 25px;
+}
+
+.fifthbtn:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.space2 {
+  background-color: white;
+  width: 100%;
+
+}
+
+.space2 h1 {
+  color: white;
+}
+
+.diclaimer {
+  width: 100%;
+
+
+}
+
+.diclaimer h4 a {
+  margin-top: 40px;
+  margin-left: 96px;
+  font-size: 20px;
+  color: black;
+  font-weight: normal;
+  /* text-decoration: none; */
+
+
+}
+
+.diclaimer h3 {
+  margin-top: 19px;
+  margin-left: 96px;
+  font-weight: normal;
+
+
+}
+
+.contact {
+  background-color: rgb(245, 247, 248);
+  height: 40px;
+}
+
+.contact h1 {
+  margin-top: 39px;
+  text-align: center;
+}
+
+.offer {
+  margin-top: 30px;
+  background-color: rgb(43, 43, 43);
+  width: 100%;
+  height: 50px;
+}
+
+.offer img {
+  margin-left: 61px;
+  height: 50px;
+  margin-top: 3px;
+  color: whitesmoke;
+}
+
+.fa-angle-right {
+  margin-top: 13px;
+  font-size: 27px;
+  margin-left: 8px;
+  color: whitesmoke;
+}
+
+.offer h4 {
+  margin-left: 150px;
+  font-size: 18px;
+  margin-top: -23px;
+  color: whitesmoke;
+
+
+}
+
+.godaddylogo {
+  background-color: black;
+  height: 170px;
+}
+
+.godaddylogo h4 {
+  font-size: 25px;
+  color: black;
+
+}
+
+.godaddylogo h2 a {
+  margin-left: 93px;
+  text-decoration: none;
+  color: rgb(68, 64, 58);
+  font-size: 30px;
+  font-weight: normal;
+
+}
+
+.godaddylogo a svg {
+  margin-top: 6px;
+  margin-left: 93px;
+  margin-bottom: 5px;
+
+
+}
+
+.footer {
+  /* margin-top: 5px; */
+  width: 100%;
+  background-color: black;
+  height: 520px;
+  border: 1px solid #fde9db;
+}
+
+.footer1 {
+  float: left;
+  color: white;
+  width: 16.6%;
+  margin-top: 53px;
+
+}
+
+.footer1 h3 {
+  margin-left: 70px;
+}
+
+.footer1 h4 {
+  margin-left: 70px;
+  font-weight: normal;
+
+}
+
+.footer1 a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer2 {
+  float: left;
+  color: white;
+  width: 16.6%;
+  margin-top: 53px;
+
+}
+
+.footer2 h3 {
+  margin-left: 70px;
+}
+
+.footer2 h4 {
+  margin-left: 70px;
+  font-weight: normal;
+}
+
+.footer2 a {
+  text-decoration: none;
+  color: white;
+
+}
+
+
+.footer3 {
+  float: left;
+  color: white;
+  width: 16.6%;
+  margin-top: 53px;
+
+}
+
+.footer3 h3 {
+  margin-left: 70px;
+}
+
+.footer3 h4 {
+  margin-left: 70px;
+  font-weight: normal;
+}
+
+.footer3 a {
+  text-decoration: none;
+  color: white;
+
+}
+
+.footer4 {
+  float: left;
+  color: white;
+  width: 16.6%;
+  margin-top: 53px;
+
+}
+
+.footer4 h3 {
+  margin-left: 70px;
+}
+
+.footer4 h4 {
+  margin-left: 70px;
+  font-weight: normal;
+}
+
+.footer4 a {
+  text-decoration: none;
+  color: white;
+
+}
+
+.footer5 {
+  margin-top: 53px;
+  float: left;
+  color: white;
+  width: 16.6%;
+}
+
+.footer5 h3 {
+  margin-left: 70px;
+}
+
+.footer5 h4 {
+  margin-left: 70px;
+  font-weight: normal;
+}
+
+.footer5 a {
+  text-decoration: none;
+  color: white;
+
+}
+
+.footer6 {
+  margin-top: 53px;
+  float: left;
+  color: white;
+  width: 16.9%;
+}
+
+.footer6 h3 {
+  margin-left: 70px;
+}
+
+.footer6 h4 {
+  margin-left: 70px;
+  font-weight: normal;
+}
+
+.footer6 a {
+  text-decoration: none;
+  color: white;
+
+}
+
+.bcd {
+  margin-top: 470px;
+  color: white;
+  width: 100%;
+}
+
+.bcdlogo {
+  float: left;
+  width: 13%;
+  background-color: black;
+}
+
+.bcdlogo a img {
+  margin-top: -12px;
+  height: 56px;
+  width: 130px;
+  margin-left: 61px;
+
+}
+
+.bcdcountry {
+  float: left;
+  width: 60%;
+  /* background-color: rgb(31, 64, 93); */
+  margin-top: 12px;
+  margin-left: 35px;
+}
+
+.bcdcountry a {
+  text-decoration: none;
+  color: white;
+}
+
+.bcdcountry span {
+  margin-left: 35px;
+}
+
+.fa-indian-rupee-sign {
+  margin-left: 5px;
+  font-size: 15px;
+  color: white;
+}
+
+.span1 {
+  color: white;
+}
+
+.bcdicon {
+  float: left;
+  text-align: end;
+  background-color: black;
+  width: 23%;
+}
+
+.bcdicon a {
+  text-decoration: none;
+  margin-left: 20px;
+  /* color: white;
+  font-size: 15px; */
+}
+
+.fa-facebook {
+
+  color: white;
+  font-size: 20px;
+}
+
+.fa-instagram {
+  color: white;
+  font-size: 20px;
+}
+
+.fa-youtube {
+  margin-left: 18px;
+  color: white;
+  font-size: 20px;
+  margin-right: 50px;
+}
+
+.mainfooter {
+  height: 140px;
+  width: 100%;
+  background-color: black;
+}
+
+.leftrights {
+  float: left;
+  width: 70%;
+  background-color: black;
+}
+
+.leftrights h4 {
+  margin-top: 33px;
+  color: white;
+  margin-left: 61px;
+  font-weight: 900;
+  font-size: 13px;
+
+
+
+}
+
+.rightrights {
+  margin-top: 33px;
+  margin-left: 0px;
+
+  float: right;
+  width: 30%;
+  /* background-color: #00838c; */
+
+}
+
+.rightrights a {
+  margin-top: -15px;
+  text-decoration: none;
+  margin-left: 25px;
+  font-size: 17px;
+  color: white;
+}
+
+/* .bcd img{
+  margin-top: 0px;
+  margin-left: 61px;
+
+} */
+/* .bcd a{
+  text-decoration: none;
+  color: white;
+
+}
+.bcd h3{
+  margin-left: 260px;
+} */
+.footerlogo {
+  width: 100%;
+  background-color: black;
+  height: 40px;
+  color: white;
+}
